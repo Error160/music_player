@@ -45,5 +45,15 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+    
+    <!-- Media Library Usage Description -->
+    <key>NSAppleMusicUsageDescription</key>
+    <string>This app needs access to your media library to play your music files.</string>
+    
+    <!-- Background Modes for audio playback -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>audio</string>
+    </array>
 </dict>
 </plist>
